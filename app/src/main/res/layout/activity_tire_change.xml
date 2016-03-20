@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    tools:context="com.example.android.driverapp.TireChange">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="How to change tires?"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:textSize="12pt"
+        android:padding="15dp"
+        android:textColor="#ffffff"
+        android:layout_alignParentEnd="false"
+        android:background="#388e3c" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView2"
+        android:layout_below="@+id/textView"
+        android:layout_alignStart="@+id/textView">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="300dp"
+                android:layout_gravity="center_horizontal|top"
+                android:padding="10dp"
+                android:id="@+id/imageView4"
+                android:src="@drawable/img4"
+                android:layout_below="@+id/textView"
+                android:layout_alignStart="@+id/scrollView2" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Follow these simple steps to fix the problem and be on your way in no time:"
+                    android:id="@+id/textView5" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="1. Find a safe spot to pull over. If you&apos;re on the freeway, taking the next exit is the safest bet, even if you have to drive on a blown tire. Otherwise, pull as far onto the shoulder as possible. Don&apos;t park in the middle of a curve where approaching cars can&apos;t see you. Also, choose a flat spot; jacking up your car on a hill can be a disaster. If you have a manual transmission, leave your car in gear. Be sure to set your parking brake!"
+                    android:id="@+id/textView6"
+                    android:layout_below="@+id/textView5"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="8dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="2. Turn on your hazard lights. Get the jack, wrench, and spare tire from the trunk of the car and bring them over to the tire that is flat. Use other tools or supplies, if needed."
+                    android:id="@+id/textView7"
+                    android:layout_below="@+id/textView6"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="8dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="3. Use the wrench to loosen the lug nuts. You may need to remove the hubcap. Don&apos;t remove the lug nuts at this point; simply loosen them by turning the wrench to the left (counter-clockwise). If the lug nuts are really tight, try placing the wrench on the nut and standing on the wrench arm to use your full weight on it. You can also try hitting the wrench arm with a rock."
+                    android:id="@+id/textView8"
+                    android:layout_below="@+id/textView7"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="8dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="4. Use the jack to lift the vehicle off the ground. Different car models may have different places to put the jack; consult your owner&apos;s manual for specific locations. Once the jack is securely in the correct spot, jack up the car until the tire is about 6 inches off the ground."
+                    android:id="@+id/textView9"
+                    android:layout_below="@+id/textView8"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="8dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="5. Remove the lug nuts and pull the tire off the car. Make sure to place the lug nuts in a pile that won&apos;t get scattered, and pull the tire straight toward yourself to remove it from the wheel base."
+                    android:id="@+id/textView10"
+                    android:layout_below="@+id/textView9"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="8dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="6. Place the spare on the car. Line up the lug nut posts with the holes in the spare, and push the spare all the way onto the wheel base until it can&apos;t go any farther."
+                    android:id="@+id/textView11"
+                    android:layout_below="@+id/textView10"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="8dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="7. Put on the lug nuts. Don&apos;t put them on tightly, just make sure they&apos;re on enough for the spare to stay on the car for a moment."
+                    android:id="@+id/textView12"
+                    android:layout_below="@+id/textView11"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="8dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="8. Lower the car back to the ground. Use the jack to bring the car back down to ground level. Remove the jack from underneath the car."
+                    android:id="@+id/textView13"
+                    android:layout_below="@+id/textView12"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="8dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="9. Make sure the lug nuts are tightened. With the car back on the ground, you can now tighten the lug nuts. Rather than tightening them one by one in order, start with one lug nut, tighten it about 50%, move to the opposite nut (across the circle) and tighten that one about the same amount. Keep tightening opposite lug nuts gradually in turn until each lug nut is as tight as it can be."
+                    android:id="@+id/textView14"
+                    android:layout_below="@+id/textView13"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="8dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="10. Put your flat tire and tools back in your trunk. Make sure you don&apos;t leave anything on the side of the road."
+                    android:id="@+id/textView15"
+                    android:layout_below="@+id/textView14"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="8dp" />
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
